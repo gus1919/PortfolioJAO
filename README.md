@@ -1,2 +1,2 @@
 # PortfolioJAO
-Personal Porrfolio
+Personal Portfolio
