@@ -1,55 +1,47 @@
 * {
     box-sizing: border-box;
-  }
+    }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-    background: royalblue;
-}
+    background-color: royalblue;
+    }
 
 header {
     display: block;
-    background-color: darkslateblue;
     text-align: center;
-}
-
-h1 {
-    font-size: 300%;
-}
-
-nav {
-    display: block;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: whitesmoke;
-    text-decoration: none;
     }
 
-.nav li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
+h1 {
+    font-size: 72px;
+    color:whitesmoke;
+    }
+
+/* Style the topnav links*/
+nav {
+     background-color: slategray;
 }
 
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+    overflow: hidden;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #ddd;
+    font-size: 25px;
+}
+
+li {
+    display: inline;
+    margin-right: 125px;
     color: black;
-  }
+   }
+
+  /* Change color on hover */
+a:hover {color: whitesmoke;}
+
+/*change color on click*/
+a:active {color: red;}
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
