@@ -17,6 +17,11 @@ h1 {
     color:whitesmoke;
     }
 
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}    
+
 /* Style the topnav links*/
 nav {
      background-color: slategray;
@@ -54,10 +59,27 @@ a:active {color: red;}
   .rightcolumn {
     float: left;
     width: 25%;
+    height: max-content;
     background-color: #f1f1f1;
     padding-left: 20px;
   }
   
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.education li .employment li {
+  display: block;
+  max-width: max-content;
+  font-size: 12px;
+  overflow: hidden;
+
+}
+
+
+
   /* Fake image */
   .fakeimg {
     background-color: #aaa;
@@ -80,11 +102,11 @@ a:active {color: red;}
   }
   
   /* Footer */
-  .footer {
+  footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
     margin-top: 20px;
+    color: whitesmoke;
   }
 
 
