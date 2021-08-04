@@ -14,8 +14,6 @@ header {
    
     }
 
-
-
 footer {
   display: block;
   text-align: center;
@@ -96,11 +94,15 @@ a:active {color: red;}
     margin-top: 20px;
   }
 
-  .education li, .employment li, .references li {
+    
+  .employmentDescription {
+    display: block;
     float: left;
-    font-size: 16px;
+    text-align: left;
+    font-size: 12px;
+    list-style-type: disc;
   }
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
