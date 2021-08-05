@@ -2,26 +2,28 @@
     box-sizing: border-box;
     }
 
+/* Background blue at top and green at bottom */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: royalblue;
     background-image: linear-gradient(royalblue, green);
-    }
+}
 
 header {
     display: block;
     text-align: center;
-   
-    }
+          }
 
-footer {
-  display: block;
-  text-align: center;
+.header-image {
+  background-image: url(../images/_DSC7984.JPG);
+  background-size: cover;
+  padding: 5px;
 }
-    
+
 h1 {
     font-size: 72px;
     color:whitesmoke;
+    text-shadow: 5px 5px darkgoldenrod;
     }
 
 h2 {
@@ -30,11 +32,6 @@ h2 {
 
 h1, h2, h3 {
   font-weight: 700;
-}
-
-/* Style the topnav links*/
-nav {
-     background-color: slategray;
 }
 
 ul {
@@ -49,7 +46,7 @@ ul {
 nav li {
     display: inline;
     margin-right: 125px;
-    color: black;
+    color: red;
    }
 
   /* Change color on hover */
@@ -93,7 +90,6 @@ a:active {color: red;}
     padding: 20px;
     margin-top: 20px;
   }
-
     
   .employmentDescription {
     display: block;
@@ -110,16 +106,6 @@ a:active {color: red;}
     clear: both;
   }
   
-  /* Footer */
-  footer {
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-    color: whitesmoke;
-  }
-
-
-
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
@@ -133,4 +119,4 @@ a:active {color: red;}
     .topnav a {
       float: none;
       width: 100%;
-    }
+    }}
