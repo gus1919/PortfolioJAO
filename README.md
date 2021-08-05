@@ -12,7 +12,7 @@ The Website will look like this:
 
 and can be found live here:
 
-
+https://gus1919.github.io/PortfolioJAO/
 
 with the repository located here:
 
