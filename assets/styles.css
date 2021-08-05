@@ -2,52 +2,53 @@
     box-sizing: border-box;
     }
 
-/* Background blue at top and green at bottom */
+/* Background gray at top and red at bottom */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: royalblue;
-    background-image: linear-gradient(royalblue, green);
-}
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightgray;
+  background-image: linear-gradient(lightgray, red);
+  }
 
 header {
-    display: block;
-    text-align: center;
-          }
+  display: block;
+  text-align: center;
+  }
 
 .header-image {
-  background-image: url(../images/_DSC7984.JPG);
-  background-size: cover;
+  background-image: url(../images/OSU.jpg);
+  background-size: 225px;
+  background-position: left;
+  background-repeat: no-repeat;
   padding: 5px;
-}
+  }
 
 h1 {
-    font-size: 72px;
-    color:whitesmoke;
-    text-shadow: 5px 5px darkgoldenrod;
-    }
+  font-size: 94px;
+  color: black;
+  text-shadow: 5px 5px red;
+  }
 
 h2 {
   font-size: 24px;
-}    
+  }    
 
 h1, h2, h3 {
   font-weight: 700;
-}
+  }
 
 ul {
-    list-style-type: none;
-    margin: 15px;
-    padding: 15px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 25px;
-}
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 25px;
+  }
 
 nav li {
-    display: inline;
-    margin-right: 125px;
-    color: red;
-   }
+  display: inline;
+  margin-right: 125px;
+  }
 
   /* Change color on hover */
 a:hover {color: whitesmoke;}
@@ -57,66 +58,65 @@ a:active {color: red;}
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
-  .leftcolumn {   
-    float: left;
-    width: 75%;
+.leftcolumn {   
+  float: left;
+  width: 75%;
   }
   
   /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    height: max-content;
-    background-color: #f1f1f1;
-    padding-left: 20px;
+.rightcolumn {
+  float: left;
+  width: 25%;
+  height: max-content;
+  background-color: #f1f1f1;
+  padding-left: 20px;
   }
   
 .column {
   float: left;
   width: 50%;
   padding: 5px;
-}
+  }
 
   /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
   }
   
   /* Add a card effect for articles */
   .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
   }
     
-  .employmentDescription {
-    display: block;
-    float: left;
-    text-align: left;
-    font-size: 12px;
-    list-style-type: disc;
+.employmentDescription {
+  display: block;
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  list-style-type: disc;
   }
 
   /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
   }
   
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-  }
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+    }}
   
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
     }}
